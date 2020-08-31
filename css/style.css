@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #AAAAAA;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #252525;
+  background-color: #151515;
 }
 
 .overlay-mf {
@@ -217,12 +217,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #909090;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #909090;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -247,7 +247,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #909090;
   margin-right: 10px;
 }
 
@@ -820,7 +820,8 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 /*======================================
@@ -1080,6 +1081,7 @@ footer {
 
 footer .copyright {
   margin-bottom: .3rem;
+  color: transparent
 }
 
 footer .credits {
