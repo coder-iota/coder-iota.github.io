@@ -1,0 +1,158 @@
+\documentclass[legalpaper]{resume} % Use the custom resume.cls style
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+% Ensure that generated pdf is machine readable/ATS parsable
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{multicol}
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Akshat Sharma} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+}
+
+\address{\href{mailto:akshatsharma6459@gmail.com}{akshatsharma6459@gmail.com} \\ +91-7723849365}
+\address{\href{https://coder-iota.github.io/}{coder-iota.github.io}}
+
+\begin{document}
+\vspace{-6.5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Experience}  
+    \vspace{-3.5mm}  
+    \textnormal{\item \textbf{Associate Engineer} \hfill {Jul 2022 – Present}\\
+    Deutsche Bank, Pune, MH\\
+    \vspace{-6.5mm}
+    \begin{itemize}
+        \itemsep -4pt {} 
+        \item Worked in Trade Finance domains, on client-facing billing, notification and reporting tools at large volumes.
+        \item Used proprietary Axiom technology to achieve 80\% temporal gains in generation of transaction reports.
+        \item Developed event-driven notification application with encrypted mailing for recipients outside the organisation.
+        \item Intgrated SWIFT MT-101 based auto debit mandate into the billing application for trade finance.
+        \item Skills: Rest APIs, Spring Boot, Java, Kafka, ReactJS, OpenShift cloud, Oracle SQL, TypeScript, Agile, JUnit, Mockito, Cucumber.
+    \end{itemize}}
+    \vspace{-6.5mm}
+
+    \textnormal{\item \textbf{Flutter Development Intern} \hfill {Mar 2022 – Jul 2022}\\
+    FarmDidi, Remote\\
+    \vspace{-6.5mm}
+    \begin{itemize}
+        \itemsep -4pt {} 
+        \item Developed and piloted Didi Business app for personnel training and business growth purposes.
+        \item Directly collaborated with CTO and CEO to understand and enhance the business case with technology.
+        \item Implemented offline support for mobile database Mongo Realm, ideal for low network availability users.
+        \item Skills: Flutter SDK, MongoDB Realm.
+    \end{itemize}}
+    \vspace{-6.5mm}
+
+    \textnormal{\item \textbf{Flutter Development Intern} \hfill {Jan 2022 – Mar 2022}\\
+    The Butter App, Remote\\
+    \vspace{-6.5mm}
+    \begin{itemize}
+        \itemsep -4pt {} 
+        \item Worked on the butter app for workplace collaboration.
+        \item Worked on several app database, web socket and security related bugfixes.
+        \item Skills: Flutter SDK, MoorDB.
+    \end{itemize}}
+    \vspace{-6.5mm}
+
+    \textnormal{\item \textbf{Technology Analyst Intern} \hfill {May 2021 –  July 2021}\\
+    Deutsche Bank, Remote\\
+    \vspace{-6.5mm}
+    \begin{itemize}
+        \itemsep -4pt {} 
+        \item Developed candidate processing system for online judge based programming test.
+        \item Implemented Spring Security for backend, with custom password encryption for secure storage.
+        \item Part of agile test-driven development team, with high emphasis on BDDs and Unit test coverage.
+        \item Skills: Java, Spring Boot, ReactJS, JavaScript, Agile, JUnit, Mockito, Cucumber, Gherkin, Selenium.
+    \end{itemize}}
+
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Education}
+
+\textnormal{\textbf{SGSITS, Indore} \hfill {Jun 2022}\\
+B.Tech - Information Technology\\
+Cum. GPA: 8.0 / 10.0}
+\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SKILLS %%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Skills}
+
+\textnormal{\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Languages: & Java, Python, JavaScript, TypeScript, Kotlin, Dart, C++, C\\
+    Frontend: & React.js, Flutter \\
+    Backend: & Spring Boot, Node.js\\
+    DevOps: & OpenShift Web, TeamCity, Jenkins\\
+    Other: & Git, GCP, Automation
+
+
+% Languages & C++, C, Java, SQL, Python\\
+% Tools and Frameworks & Spring Boot, Django, Slackbolt, Vertx, Tensorflow, Postman
+\end{tabular}}
+\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Projects}
+
+\vspace{-1em}
+
+\textnormal{\item \href{}{\textbf{stat19COVID}} {}\\
+\vspace{-6.5mm}
+\begin{itemize}
+    \itemsep -6pt {} 
+    \item Created data visualizer for Covid-19 cases in Indian states using publically available data APIs.
+    \item Technologies used : HTML, JS, CSS, Python.
+\end{itemize}}
+\vspace{-1em}
+
+\textnormal{\item \href{}{\textbf{Steganographer}} {}\\
+\vspace{-6.5mm}
+\begin{itemize}
+    \item Created a flutter application that encrypts and embeds a message onto an image using steganography.
+    \item Technologies used : Flutter, Dart, steganography.
+\end{itemize}}
+\vspace{-1em}
+
+\vspace{1mm}
+\end{rSection} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ACHIEVEMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Acheivements} 
+\textnormal{
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{l l}
+    2024 & Awarded Rising Star at Deutsche Bank Q3 2024. \\
+    2021 & India West Finalist at TATA Crucible Hackathon. \\
+    2021 & Headed two college student developer communities. \\
+    % 2023 &  \href{https://codeforces.com/profile/melon_many} 
+    %  {Expert on Codeforces} (max. rating 1779).\\
+    % 2023 & { Secured } \textbf{global rank 176 } in Codeforces round $851$ (Div $2$).\\
+    % 2023 & { Secured } \textbf{global rank 286 } in Codeforces round $889$ (Div $2$).\\
+    % 2023 & {Qualified HackerCup organised by Meta. }\\
+    % 2022 & \href{https://www.codechef.com/users/milan_s1} {Achieved 5 star on codechef}.\\
+    % 2022 & { Secured } \textbf{global rank 74 } in Codechef June Lunchtime, (Div $2$).\\
+    % 2022 & {Participated in \textbf{Oppo Inspiration Cup} and achieved a position among top } \textbf{200 coders in India}.\\
+    % 2020 & Secured \textbf{AIR $760$ in JEE Advanced 2020} among more than $150000$ candidates.\\
+    % 2018 & \textbf{District Rank 1 } {in Secondary School Examination}.\\
+\end{tabular}}
+
+\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ACTIVITIES %%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{rSection}{Activities} 
+
+% \textnormal
+%     I participated in {\textbf{Fevicryl "Be the change"}} campaign on the occasion of Independence day, 2014 and successfully attempted to create Limca Record under the campaign.\\
+%     I am an active member of the Sahyog Club under Social Service Council of IIT BHU.\\
+% \end{rSection}
+\end{document}
